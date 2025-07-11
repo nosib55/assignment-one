@@ -1,5 +1,5 @@
 *{ margin: 0 auto; padding: 0;}
-body{ background-color: #D6DDED;}
+body{ background-color: #D6DDED; max-width: 1440px;}
 .open-sans-font{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -51,7 +51,25 @@ section .btn-2{ margin-top: 49px; width: 174px; height: 48px; }
 .banner-pic{ border: 4px solid blue; border-radius: 40px;}
 
 
+/* footer ar style  */
+
+.section-footer{ width: 1140px; height: 632px; display: flex; justify-content: center; align-items: center;}
+.section-footer h1{ text-align: left; justify-content: center; margin-bottom: 200px; font-size: 96px; font-weight: bold;}
+
+.section-footer form{width: 497px; height: 490px; text-align: left; margin-top:71px ; margin-left: 117px;}
+
+.section-footer form label{ font-size: 18px; font-weight: 500;}
+input{ width: 497px; font-size: 20px; padding-left: 30px; height: 70px; margin-bottom: 51px;}
+textarea{ width: 497px; height: 135px; font-size: 20px; padding-left: 30px;}
+.last-btn{width: 497px; height: 62px; font-size: 16px; font-weight: bold; margin-top: 19px;}
 
 
 
+
+
+
+
+button:hover {
+  background-color: #ff2df1;
+}
 
